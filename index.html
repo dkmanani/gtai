@@ -1,0 +1,891 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Web Solutions - Professional Digital Services</title>
+    <meta name="description" content="AI-powered web development services with integrated chatbot functionality. Get your website built by AI with 24/7 support.">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="assets/logo.jpeg">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <!-- Bubble Background -->
+    <div class="bubble-background" id="bubbleBackground">
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+        <div class="bubble"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav-container">
+            <div class="logo-section">
+                <img src="assets/logo.svg" alt="AI Web Solutions Logo" class="logo">
+                <div class="company-name">
+                    <h1>GTAI Web Solutions</h1>
+                    <p class="tagline">AI-Powered Digital Excellence</p>
+                </div>
+            </div>
+            
+            <div class="header-actions">
+                <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                    <i class="fas fa-sun"></i>
+                </button>
+                
+                <a href="https://wa.me/+917767834383?text=Hi! I'm interested in your AI web development services. Please share more details." class="contact-btn" target="_blank">
+                    <i class="fab fa-whatsapp"></i>
+                    <span>Contact Us</span>
+                </a>
+                
+                <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle mobile menu" aria-expanded="false">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+        
+        <div class="nav-menu" id="navMenu">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#features" class="nav-link">Features</a>
+            <a href="#how-it-works" class="nav-link">How It Works</a>
+            <a href="#pricing" class="nav-link">Pricing</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section class="hero-section" id="home">
+            <div class="container">
+                <div class="hero-content">
+                    <div class="hero-text">
+                        <h1 class="hero-title animate-fadeInUp">
+                            Build Your <span class="gradient-text">AI-Powered</span> Website in Minutes
+                        </h1>
+                        <p class="hero-description animate-fadeInUp animate-delay-200">
+                            Revolutionary AI technology meets professional web development. Get stunning websites, mobile apps, and digital tools with 24/7 AI support and guaranteed results.
+                        </p>
+                        
+                        <div class="hero-buttons animate-fadeInUp animate-delay-400">
+                            <a href="#services" class="cta-primary">
+                                <i class="fas fa-rocket"></i>
+                                Start Building Now
+                            </a>
+                            <a href="#how-it-works" class="cta-secondary">
+                                <i class="fas fa-play"></i>
+                                See How It Works
+                            </a>
+                        </div>
+                        
+                        <div class="hero-features animate-fadeInUp animate-delay-600">
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Free .in Domain + Hosting</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>Free Android App</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>1 Year Free Editing</span>
+                            </div>
+                            <div class="feature-item">
+                                <i class="fas fa-check-circle"></i>
+                                <span>SEO Optimized</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="hero-visual animate-fadeInRight animate-delay-300">
+                        <div class="hero-card">
+                            <div class="card-header">
+                                <div class="card-dots">
+                                    <span></span>
+                                    <span></span>
+                                    <span></span>
+                                </div>
+                                <span class="card-title">AI Website Builder</span>
+                            </div>
+                            <div class="progress-bar">
+                                <div class="progress-fill"></div>
+                            </div>
+                            <p>Building your perfect website...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section class="services-section" id="services">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Digital Services</h2>
+                    <p class="section-subtitle">Comprehensive AI-powered solutions for all your digital needs</p>
+                </div>
+                
+                <div class="services-grid">
+                    <!-- Service 1: AI Website Builder -->
+                    <div class="service-card" data-animate="fadeInUp">
+                        <div class="service-banner">
+                            <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800" alt="AI Website Builder">
+                            <div class="service-overlay">
+                                <i class="fas fa-robot"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>AI Website Builder</h3>
+                            <p>Revolutionary AI-powered website creation with intelligent design suggestions and automated content generation.</p>
+                            
+                            <div class="pricing">
+                                <span class="market-price">₹9,999</span>
+                                <span class="offer-price">₹4,999</span>
+                            </div>
+                            
+                            <div class="service-details">
+                                <table class="service-table">
+                                    <tr><td><i class="fas fa-check"></i> AI-Powered Design</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Smart Content Generation</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Responsive Layout</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> SEO Optimization</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Free .in Domain + Hosting (1 Year)</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Free Android App</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> 1 Year Free Editing</td></tr>
+                                </table>
+                                <a href="https://anchoractsrushti.com">
+  <button class="pricing-btn">Demo Have Look</button>
+</a>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 2: Custom Website Development -->
+                    <div class="service-card" data-animate="fadeInUp" data-delay="100">
+                        <div class="service-banner">
+                            <img src="https://images.pexels.com/photos/326508/pexels-photo-326508.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Custom Website Development">
+                            <div class="service-overlay">
+                                <i class="fas fa-code"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>Custom Website Development</h3>
+                            <p>Fully customized websites tailored to your specific business needs with advanced functionality.</p>
+                            
+                            <div class="pricing">
+                                <span class="market-price">₹24,999</span>
+                                <span class="offer-price">₹7,999</span>
+                            </div>
+                            
+                            <div class="service-details">
+                                <table class="service-table">
+                                    <tr><td><i class="fas fa-check"></i> Custom Design & Development</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Advanced Functionality</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Database Integration</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Admin Panel</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Free .in Domain + Hosting (1 Year)</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Free Android App</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> 1 Year Free Editing</td></tr>
+                                </table>
+                                <a href="https://vigorousgrowthgenetics.com">
+  <button class="pricing-btn">Demo Have Look</button>
+</a>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 3: E-commerce Website -->
+                    <div class="service-card" data-animate="fadeInUp" data-delay="200">
+                        <div class="service-banner">
+                            <img src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800" alt="E-commerce Website">
+                            <div class="service-overlay">
+                                <i class="fas fa-shopping-cart"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>E-commerce Website</h3>
+                            <p>Complete online store with payment gateway integration and inventory management system.</p>
+                            
+                            <div class="pricing">
+                                <span class="market-price">₹34,999</span>
+                                <span class="offer-price">₹4,999</span>
+                            </div>
+                            
+                            <div class="service-details">
+                                <table class="service-table">
+                                    <tr><td><i class="fas fa-check"></i> Payment Gateway Integration</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Inventory Management</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Order Management System</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Customer Dashboard</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Free .in Domain + Hosting (1 Year)</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Free Android App</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> 1 Year Free Editing</td></tr>
+                                </table>
+                                <a href="https://shopy.galaxytribes.in">
+  <button class="pricing-btn">Demo Have Look</button>
+</a>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 4: Android App Development -->
+                    <div class="service-card" data-animate="fadeInUp" data-delay="300">
+                        <div class="service-banner">
+                            <img src="https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Android App Development">
+                            <div class="service-overlay">
+                                <i class="fab fa-android"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>Android App Development</h3>
+                            <p>Native Android applications with modern UI/UX design and seamless performance.</p>
+                            
+                            <div class="pricing">
+                                <span class="market-price">₹29,999</span>
+                                <span class="offer-price">₹7,999</span>
+                            </div>
+                            
+                            <div class="service-details">
+                                <table class="service-table">
+                                    <tr><td><i class="fas fa-check"></i> Native Android Development</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Modern UI/UX Design</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Play Store Optimization</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Push Notifications</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Free .in Domain + Hosting (1 Year)</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Free Android App</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> 1 Year Free Editing</td></tr>
+                                </table>
+                                <a href="https://www.galaxytribesdigital.in">
+  <button class="pricing-btn">Demo Have Look</button>
+</a>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 5: Single Page Website -->
+                    <div class="service-card" data-animate="fadeInUp" data-delay="400">
+                        <div class="service-banner">
+                            <img src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Single Page Website">
+                            <div class="service-overlay">
+                                <i class="fas fa-file-alt"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>Single Page Website</h3>
+                            <p>Perfect for small businesses and portfolios with elegant single-page design.</p>
+                            
+                            <div class="pricing">
+                                <span class="market-price">₹5,999</span>
+                                <span class="offer-price">₹2,999</span>
+                            </div>
+                            
+                            <div class="service-details">
+                                <table class="service-table">
+                                    <tr><td><i class="fas fa-check"></i> Single Page Design</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Responsive Layout</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Contact Form Integration</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Social Media Integration</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Free .in Domain + Hosting (1 Year)</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Free Android App</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> 1 Year Free Editing</td></tr>
+                                </table>
+                                <a href="https://vp.galaxytribes.in">
+  <button class="pricing-btn">Demo Have Look</button>
+</a>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 6: WhatsApp Bulk Send Tool -->
+                    <div class="service-card" data-animate="fadeInUp" data-delay="500">
+                        <div class="service-banner">
+                            <img src="https://images.pexels.com/photos/147413/twitter-facebook-together-exchange-of-information-147413.jpeg?auto=compress&cs=tinysrgb&w=800" alt="WhatsApp Bulk Send Tool">
+                            <div class="service-overlay">
+                                <i class="fab fa-whatsapp"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>WhatsApp Bulk Send Tool</h3>
+                            <p>Powerful marketing automation tool for WhatsApp bulk messaging campaigns.</p>
+                            
+                            <div class="pricing">
+                                <span class="market-price">₹12,999</span>
+                                <span class="offer-price">₹4,999</span>
+                            </div>
+                            
+                            <div class="service-details">
+                                <table class="service-table">
+                                    <tr><td><i class="fas fa-check"></i> Bulk Message Sending</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Contact Management</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Message Templates</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Analytics Dashboard</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Validity 2 year</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Free Control Panel</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> 1 Year Free Editing</td></tr>
+                                </table>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 7: Google Extractor Tool -->
+                    <div class="service-card" data-animate="fadeInUp" data-delay="600">
+                        <div class="service-banner">
+                            <img src="https://images.pexels.com/photos/590020/pexels-photo-590020.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Google Extractor Tool">
+                            <div class="service-overlay">
+                                <i class="fab fa-google"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>Google Extractor Tool</h3>
+                            <p>Advanced web scraping tool for extracting business data from Google search results.</p>
+                            
+                            <div class="pricing">
+                                <span class="market-price">₹16,999</span>
+                                <span class="offer-price">₹2,999</span>
+                            </div>
+                            
+                            <div class="service-details">
+                                <table class="service-table">
+                                    <tr><td><i class="fas fa-check"></i> Google Search Extraction</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Business Data Mining</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Export to Excel/CSV</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Automated Scheduling</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> B2B Data</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Pan India Search</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> CityWise or Pincode wise</td></tr>
+                                </table>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 8: Passive Income Website -->
+                    <div class="service-card" data-animate="fadeInUp" data-delay="700">
+                        <div class="service-banner">
+                            <img src="https://images.pexels.com/photos/164527/pexels-photo-164527.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Passive Income Website">
+                            <div class="service-overlay">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>Passive Income Website</h3>
+                            <p>Monetization-ready websites designed to generate passive income through various channels.</p>
+                            
+                            <div class="pricing">
+                                <span class="market-price">₹22,999</span>
+                                <span class="offer-price">₹6,999</span>
+                            </div>
+                            
+                            <div class="service-details">
+                                <table class="service-table">
+                                    <tr><td><i class="fas fa-check"></i> Monetization Integration</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Ad Revenue Optimization</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Affiliate Marketing Setup</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Analytics & Tracking</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Free .in Domain + Hosting (1 Year)</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Free Android App</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> 1 Year Free Editing</td></tr>
+                                </table>
+                                <a href="https://deal.galaxytribes.in">
+  <button class="pricing-btn">Demo Have Look</button>
+</a>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 9: Professional Portfolio -->
+                    <div class="service-card" data-animate="fadeInUp" data-delay="800">
+                        <div class="service-banner">
+                            <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Professional Portfolio">
+                            <div class="service-overlay">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>Professional Portfolio</h3>
+                            <p>Stunning portfolio websites to showcase your work and attract potential clients.</p>
+                            
+                            <div class="pricing">
+                                <span class="market-price">₹10,999</span>
+                                <span class="offer-price">₹5,999</span>
+                            </div>
+                            
+                            <div class="service-details">
+                                <table class="service-table">
+                                    <tr><td><i class="fas fa-check"></i> Portfolio Showcase</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Project Gallery</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Client Testimonials</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Contact Integration</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Free .in Domain + Hosting (1 Year)</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Free Android App</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> 1 Year Free Editing</td></tr>
+                                </table>
+                                <a href="https://woodmart.xtemos.com/demo-corporate-2/demo/corporate-2">
+  <button class="pricing-btn">Demo Have Look</button>
+</a>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 10: Ready-Made Templates -->
+                    <div class="service-card" data-animate="fadeInUp" data-delay="900">
+                        <div class="service-banner">
+                            <img src="https://images.pexels.com/photos/326508/pexels-photo-326508.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Ready-Made Templates">
+                            <div class="service-overlay">
+                                <i class="fas fa-layer-group"></i>
+                            </div>
+                        </div>
+                        <div class="service-content">
+                            <h3>Ready-Made Templates</h3>
+                            <p>Pre-designed website templates that can be customized quickly for your business needs.</p>
+                            
+                            <div class="pricing">
+                                <span class="market-price">₹7,999</span>
+                                <span class="offer-price">₹1,999</span>
+                            </div>
+                            
+                            <div class="service-details">
+                                <table class="service-table">
+                                    <tr><td><i class="fas fa-check"></i> Pre-designed Templates</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Quick Customization</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Multiple Design Options</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Easy Content Management</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Free .in Domain + Hosting (1 Year)</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> Free Android App</td></tr>
+                                    <tr><td><i class="fas fa-check"></i> 1 Year Free Editing</td></tr>
+                                </table>
+                                <a href="https://woodmart.xtemos.com/infinite-scrolling/?opt=layout_infinite">
+  <button class="pricing-btn">Demo Have Look</button>
+</a>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features-section" id="features">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Why Choose GTAI Web Solutions?</h2>
+                    <p class="section-subtitle">Experience the power of AI-driven web development with unmatched quality and support</p>
+                </div>
+                
+                <div class="features-grid">
+                    <div class="feature-card" data-animate="scaleIn">
+                        <div class="feature-icon">
+                            <i class="fas fa-robot"></i>
+                        </div>
+                        <h3>AI-Powered Technology</h3>
+                        <p>Cutting-edge artificial intelligence creates stunning websites with intelligent design suggestions and automated optimization.</p>
+                    </div>
+                    
+                    <div class="feature-card" data-animate="scaleIn" data-delay="100">
+                        <div class="feature-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3>Mobile-First Design</h3>
+                        <p>Every website is built with mobile-first approach, ensuring perfect performance across all devices and screen sizes.</p>
+                    </div>
+                    
+                    <div class="feature-card" data-animate="scaleIn" data-delay="200">
+                        <div class="feature-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>24/7 Support</h3>
+                        <p>Round-the-clock customer support with AI chatbot assistance and human expert backup for all your queries.</p>
+                    </div>
+                    
+                    <div class="feature-card" data-animate="scaleIn" data-delay="300">
+                        <div class="feature-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Security & Reliability</h3>
+                        <p>Enterprise-grade security with SSL certificates, regular backups, and 99.9% uptime guarantee for your peace of mind.</p>
+                    </div>
+                    
+                    <div class="feature-card" data-animate="scaleIn" data-delay="400">
+                        <div class="feature-icon">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h3>SEO Optimized</h3>
+                        <p>Built-in SEO optimization ensures your website ranks higher in search results and attracts more organic traffic.</p>
+                    </div>
+                    
+                    <div class="feature-card" data-animate="scaleIn" data-delay="500">
+                        <div class="feature-icon">
+                            <i class="fas fa-money-bill-wave"></i>
+                        </div>
+                        <h3>Guaranteed Work</h3>
+                        <p>Guaranteed work ensures your complete satisfaction with our services and deliverables.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Use Cases Section -->
+        <section class="use-cases-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Perfect For Every Business</h2>
+                    <p class="section-subtitle">See how our AI-powered solutions work for different industries</p>
+                </div>
+                
+                <div class="use-cases-grid">
+                    <div class="use-case-card">
+                        <img src="https://images.pexels.com/photos/3184418/pexels-photo-3184418.jpeg" alt="Freelancers">
+                        <div class="use-case-content">
+                            <h3>Freelancers</h3>
+                            <p>Portfolio in minutes</p>
+                            <span class="use-case-feature">Showcase your work professionally</span>
+                        </div>
+                    </div>
+                    
+                    <div class="use-case-card">
+                        <img src="https://images.pexels.com/photos/264636/pexels-photo-264636.jpeg" alt="Local Shops">
+                        <div class="use-case-content">
+                            <h3>Local Shops</h3>
+                            <p>Online presence without paying an agency</p>
+                            <span class="use-case-feature">Complete e-commerce Dropshipping</span>
+                        </div>
+                    </div>
+                    
+                    <div class="use-case-card">
+                        <img src="https://images.pexels.com/photos/1190298/pexels-photo-1190298.jpeg" alt="Event Pages">
+                        <div class="use-case-content">
+                            <h3>Event Pages</h3>
+                            <p>Quick setup for weddings or conferences</p>
+                            <span class="use-case-feature">Beautiful event websites</span>
+                        </div>
+                    </div>
+                    
+                    <div class="use-case-card">
+                        <img src="https://images.pexels.com/photos/4050315/pexels-photo-4050315.jpeg" alt="Bloggers">
+                        <div class="use-case-content">
+                            <h3>Bloggers</h3>
+                            <p>Fast, beautiful blog design</p>
+                            <span class="use-case-feature">SEO-optimized content platform</span>
+                        </div>
+                    </div>
+                    
+                    <div class="use-case-card">
+                        <img src="https://images.pexels.com/photos/3735747/pexels-photo-3735747.jpeg" alt="Dropshipping">
+                        <div class="use-case-content">
+                            <h3>Dropshipping & Reselling</h3>
+                            <p>E-commerce sites with integrated tools</p>
+                            <span class="use-case-feature">Complete business solution</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- How It Works Section -->
+        <section class="how-it-works-section" id="how-it-works">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">How It Works</h2>
+                    <p class="section-subtitle">Simple 3-step process to get your AI-powered website live</p>
+                </div>
+                
+                <div class="steps-container">
+                    <div class="step-card" data-animate="fadeInLeft">
+                        <div class="step-number">1</div>
+                        <div class="step-content">
+                            <h3>Choose Your Service</h3>
+                            <p>Select from our comprehensive range of AI-powered digital services that best fits your business needs.</p>
+                            <div class="step-features">
+                                <span><i class="fas fa-check"></i> Browse service options</span>
+                                <span><i class="fas fa-check"></i> Compare features & pricing</span>
+                                <span><i class="fas fa-check"></i> Try live demos</span>
+                            </div>
+                        </div>
+                        <div class="step-visual">
+                            <i class="fas fa-mouse-pointer"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="step-card" data-animate="fadeInUp" data-delay="200">
+                        <div class="step-number">2</div>
+                        <div class="step-content">
+                            <h3>Share Your Requirements</h3>
+                            <p>Tell us about your business, preferences, and specific requirements through our intelligent form or WhatsApp.</p>
+                            <div class="step-features">
+                                <span><i class="fas fa-check"></i> Business information</span>
+                                <span><i class="fas fa-check"></i> Design preferences</span>
+                                <span><i class="fas fa-check"></i> Feature requirements</span>
+                            </div>
+                        </div>
+                        <div class="step-visual">
+                            <i class="fas fa-comments"></i>
+                        </div>
+                    </div>
+                    
+                    <div class="step-card" data-animate="fadeInRight" data-delay="400">
+                        <div class="step-number">3</div>
+                        <div class="step-content">
+                            <h3>Get Your Website Live</h3>
+                            <p>Our AI creates your website within 24-48 hours. Review, approve, and go live with full support.</p>
+                            <div class="step-features">
+                                <span><i class="fas fa-check"></i> AI-powered creation</span>
+                                <span><i class="fas fa-check"></i> Review & feedback</span>
+                                <span><i class="fas fa-check"></i> Go live instantly</span>
+                            </div>
+                        </div>
+                        <div class="step-visual">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact-section" id="contact">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Get Started Today</h2>
+                    <p class="section-subtitle">Ready to transform your digital presence? Contact us now!</p>
+                </div>
+                
+                <div class="contact-grid">
+                    <div class="contact-info">
+                        <h3>Let's Build Something Amazing Together</h3>
+                        <p>Our AI-powered solutions are designed to give your business the digital edge it needs. With 24/7 support and guaranteed results, we're here to make your vision a reality.</p>
+                        
+                        <div class="contact-methods">
+                            <div class="contact-method">
+                                <i class="fab fa-whatsapp"></i>
+                                <div>
+                                    <h4>WhatsApp</h4>
+                                    <p>+91 7767834383</p>
+                                    <a href="https://wa.me/+917767834383?text=Hi! I'm interested in your AI web development services." target="_blank">Chat Now</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <i class="fas fa-clock"></i>
+                                <div>
+                                    <h4>Response Time</h4>
+                                    <p>Within 2 hours</p>
+                                    <a href="#services">View Services</a>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-method">
+                                <i class="fas fa-headset"></i>
+                                <div>
+                                    <h4>Support</h4>
+                                    <p>24/7 Available</p>
+                                    <a href="#features">Learn More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+    <form id="contactForm">
+        <div class="form-group">
+            <label for="fullName">Full Name *</label>
+            <input type="text" id="fullName" name="fullName" required>
+        </div>
+
+        <div class="form-group">
+            <label for="mobile">Mobile Number *</label>
+            <input type="tel" id="mobile" name="mobile" required>
+        </div>
+
+        <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="service">Service Interested In *</label>
+            <select id="service" name="service" required>
+                <option value="">Select a service</option>
+                <option value="AI Website Builder - ₹4,999">AI Website Builder - ₹4,999</option>
+                <option value="Custom Website Development - ₹7,999">Custom Website Development - ₹7,999</option>
+                <option value="E-commerce Website - ₹4,999">E-commerce Website - ₹4,999</option>
+                <option value="Android App Development - ₹7,999">Android App Development - ₹7,999</option>
+                <option value="Single Page Website - ₹2,999">Single Page Website - ₹2,999</option>
+                <option value="WhatsApp Bulk Send Tool - ₹4,999">WhatsApp Bulk Send Tool - ₹4,999</option>
+                <option value="Google Extractor Tool - ₹2,999">Google Extractor Tool - ₹2,999</option>
+                <option value="Passive Income Website - ₹6,999">Passive Income Website - ₹6,999</option>
+                <option value="Professional Portfolio - ₹5,999">Professional Portfolio - ₹5,999</option>
+                <option value="Ready-Made Templates - ₹1,999">Ready-Made Templates - ₹1,999</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="projectDetails">Project Details</label>
+            <textarea id="projectDetails" name="projectDetails" rows="4" placeholder="Tell us about your project requirements..."></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">
+            <i class="fab fa-whatsapp"></i>
+            Send Message via WhatsApp
+        </button>
+    </form>
+</div>
+
+<script>
+    document.getElementById("contactForm").addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        // Collect form data
+        const fullName = document.getElementById("fullName").value;
+        const mobile = document.getElementById("mobile").value;
+        const email = document.getElementById("email").value;
+        const service = document.getElementById("service").value;
+        const projectDetails = document.getElementById("projectDetails").value;
+
+        // Format WhatsApp message
+        const message = `*New Inquiry From Website*\n\n👤 *Name:* ${fullName}\n📱 *Mobile:* ${mobile}\n✉️ *Email:* ${email}\n🛠️ *Service:* ${service}\n📝 *Details:* ${projectDetails || 'N/A'}`;
+
+        // Encode message
+        const encodedMessage = encodeURIComponent(message);
+
+        // WhatsApp number with country code
+        const phoneNumber = "917767834383";
+
+        // Open WhatsApp link
+        window.open(`https://wa.me/${phoneNumber}?text=${encodedMessage}`, "_blank");
+    });
+</script>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="assets/logo.jpeg" alt="GTAI Web Solutions">
+                        <span>GT.AI BY GALAXYTRIBES™</span>
+                    </div>
+                    <p>AI-powered digital excellence for modern businesses. Transform your online presence with cutting-edge technology and 24/7 support.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/19KtmQc7w8" target="_blank" aria-label="Facebook">
+  <i class="fab fa-facebook-f"></i>
+</a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#services">AI Website Builder</a></li>
+                        <li><a href="#services">Custom Development</a></li>
+                        <li><a href="#services">E-commerce Solutions</a></li>
+                        <li><a href="#services">Android Apps</a></li>
+                        <li><a href="#services">Digital Tools</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#features">24/7 Support</a></li>
+                        <li><a href="#how-it-works">How It Works</a></li>
+                        <li><a href="#services">Live Demos</a></li>
+                        <li><a href="#contact">WhatsApp Chat</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li><i class="fab fa-whatsapp"></i> +91 7767834383</li>
+                        <li><i class="fas fa-clock"></i> 24/7 Support</li>
+                        <li><i class="fas fa-reply"></i> 2 Hour Response</li>
+                        <li><i class="fas fa-shield-alt"></i> Guaranteed Work</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>&copy; 2025 GTAI Web Solutions. All rights reserved.GalaxyTribes</p>
+                    <div class="footer-links">
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">Terms of Service</a>
+                        <a href="#">Refund Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/+917767834383?text=Hi! I'm interested in your AI web development services. Please share more details about your offerings." class="whatsapp-float" target="_blank" aria-label="Contact via WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Chatbot -->
+    <button class="chatbot-toggle" id="chatbotToggle" aria-label="Open AI Assistant">
+        <i class="fas fa-robot"></i>
+    </button>
+
+    <div class="chatbot-widget" id="chatbotWidget">
+        <div class="chatbot-header">
+            <span><i class="fas fa-robot"></i> AI Assistant</span>
+            <button class="chatbot-close" id="chatbotClose" aria-label="Close chat">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="chatbot-body" id="chatbotBody">
+            <!-- Messages will be added here dynamically -->
+        </div>
+        <div class="chatbot-footer">
+            <input type="text" id="chatbotInput" placeholder="Ask me anything about our services..." maxlength="500">
+            <button id="chatbotSend" aria-label="Send message">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/chatbot.js"></script>
+</body>
+</html>
